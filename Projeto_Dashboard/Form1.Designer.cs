@@ -31,17 +31,17 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.painel_menu_lateral = new System.Windows.Forms.Panel();
-            this.ExtremeUI = new System.Windows.Forms.Button();
-            this.dashboard = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.calculator = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dashboard = new System.Windows.Forms.Button();
+            this.ExtremeUI = new System.Windows.Forms.Button();
             this.painel_body = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.painel_menu_lateral.SuspendLayout();
             this.painel_body.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -70,39 +70,39 @@
             this.painel_menu_lateral.Size = new System.Drawing.Size(214, 803);
             this.painel_menu_lateral.TabIndex = 0;
             // 
-            // ExtremeUI
+            // button2
             // 
-            this.ExtremeUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ExtremeUI.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ExtremeUI.FlatAppearance.BorderSize = 0;
-            this.ExtremeUI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExtremeUI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExtremeUI.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ExtremeUI.Location = new System.Drawing.Point(0, 0);
-            this.ExtremeUI.Margin = new System.Windows.Forms.Padding(2);
-            this.ExtremeUI.Name = "ExtremeUI";
-            this.ExtremeUI.Size = new System.Drawing.Size(214, 72);
-            this.ExtremeUI.TabIndex = 6;
-            this.ExtremeUI.Text = "EXTREME UI";
-            this.ExtremeUI.UseVisualStyleBackColor = false;
-            this.ExtremeUI.Click += new System.EventHandler(this.ExtremeUI_Click);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 207);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(214, 46);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "CALCULATOR";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dashboard
+            // calculator
             // 
-            this.dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dashboard.FlatAppearance.BorderSize = 0;
-            this.dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboard.ForeColor = System.Drawing.Color.White;
-            this.dashboard.Location = new System.Drawing.Point(0, 72);
-            this.dashboard.Margin = new System.Windows.Forms.Padding(2);
-            this.dashboard.Name = "dashboard";
-            this.dashboard.Size = new System.Drawing.Size(214, 89);
-            this.dashboard.TabIndex = 8;
-            this.dashboard.Text = "DASHBOARD";
-            this.dashboard.UseVisualStyleBackColor = false;
-            this.dashboard.Click += new System.EventHandler(this.button1_Click_1);
+            this.calculator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.calculator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.calculator.FlatAppearance.BorderSize = 0;
+            this.calculator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.calculator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculator.ForeColor = System.Drawing.Color.White;
+            this.calculator.Location = new System.Drawing.Point(0, 161);
+            this.calculator.Margin = new System.Windows.Forms.Padding(2);
+            this.calculator.Name = "calculator";
+            this.calculator.Size = new System.Drawing.Size(214, 46);
+            this.calculator.TabIndex = 17;
+            this.calculator.Text = "PRODUTOS";
+            this.calculator.UseVisualStyleBackColor = false;
+            this.calculator.Click += new System.EventHandler(this.calculator_Click);
             // 
             // button1
             // 
@@ -121,22 +121,39 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
-            // calculator
+            // dashboard
             // 
-            this.calculator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.calculator.Dock = System.Windows.Forms.DockStyle.Top;
-            this.calculator.FlatAppearance.BorderSize = 0;
-            this.calculator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calculator.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calculator.ForeColor = System.Drawing.Color.White;
-            this.calculator.Location = new System.Drawing.Point(0, 161);
-            this.calculator.Margin = new System.Windows.Forms.Padding(2);
-            this.calculator.Name = "calculator";
-            this.calculator.Size = new System.Drawing.Size(214, 46);
-            this.calculator.TabIndex = 17;
-            this.calculator.Text = "PRODUTOS";
-            this.calculator.UseVisualStyleBackColor = false;
-            this.calculator.Click += new System.EventHandler(this.calculator_Click);
+            this.dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dashboard.FlatAppearance.BorderSize = 0;
+            this.dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard.ForeColor = System.Drawing.Color.White;
+            this.dashboard.Location = new System.Drawing.Point(0, 72);
+            this.dashboard.Margin = new System.Windows.Forms.Padding(2);
+            this.dashboard.Name = "dashboard";
+            this.dashboard.Size = new System.Drawing.Size(214, 89);
+            this.dashboard.TabIndex = 8;
+            this.dashboard.Text = "DASHBOARD";
+            this.dashboard.UseVisualStyleBackColor = false;
+            this.dashboard.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // ExtremeUI
+            // 
+            this.ExtremeUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ExtremeUI.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ExtremeUI.FlatAppearance.BorderSize = 0;
+            this.ExtremeUI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExtremeUI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExtremeUI.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ExtremeUI.Location = new System.Drawing.Point(0, 0);
+            this.ExtremeUI.Margin = new System.Windows.Forms.Padding(2);
+            this.ExtremeUI.Name = "ExtremeUI";
+            this.ExtremeUI.Size = new System.Drawing.Size(214, 72);
+            this.ExtremeUI.TabIndex = 6;
+            this.ExtremeUI.Text = "EXTREME UI";
+            this.ExtremeUI.UseVisualStyleBackColor = false;
+            this.ExtremeUI.Click += new System.EventHandler(this.ExtremeUI_Click);
             // 
             // painel_body
             // 
@@ -160,6 +177,14 @@
             this.panel1.Size = new System.Drawing.Size(1212, 803);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 72);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1212, 731);
+            this.panel2.TabIndex = 3;
             // 
             // panel3
             // 
@@ -199,37 +224,13 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 72);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1212, 731);
-            this.panel2.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 207);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 46);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "CALCULATOR";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1426, 839);
             this.Controls.Add(this.painel_body);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.painel_menu_lateral.ResumeLayout(false);

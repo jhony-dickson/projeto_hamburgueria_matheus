@@ -217,5 +217,10 @@ namespace Projeto_Dashboard
                 painel_menu_lateral.Visible = true;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
